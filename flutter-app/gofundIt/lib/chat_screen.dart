@@ -69,14 +69,30 @@ class _ChatScreenState extends State<ChatScreen> {
 class MessagesStream extends StatelessWidget {
   final List<MessageBubble> messageBubbles = [
     MessageBubble(
+      sender: "ai_founder@gmail.com",
+      text: "Yeah sure. Give me a minute",
+      isMe: false,
+    ),
+    MessageBubble(
       sender: "vbpatil9980@gmail.com",
-      text: "Hi there! I'd like some additional details from you.",
+      text:
+          "Could you share how much revenue has your company generated till now?",
       isMe: true,
     ),
     MessageBubble(
       sender: "ai_founder@gmail.com",
       text: "Hello Elon! Definitely. Please let me know your doubts.",
       isMe: false,
+    ),
+    MessageBubble(
+      sender: "vbpatil9980@gmail.com",
+      text: "I'd like some additional details from you.",
+      isMe: true,
+    ),
+    MessageBubble(
+      sender: "vbpatil9980@gmail.com",
+      text: "Hi there!",
+      isMe: true,
     ),
   ];
 
@@ -139,7 +155,7 @@ class MessageBubble extends StatelessWidget {
             sender,
             style: TextStyle(
               fontSize: 12.0,
-              color: Colors.black54,
+              color: Colors.white,
             ),
           ),
           Material(
