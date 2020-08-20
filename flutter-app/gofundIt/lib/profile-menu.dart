@@ -96,8 +96,7 @@ class _ProfileMenuState extends State<ProfileMenu> {
           ),
           FlatButton(
             shape: new RoundedRectangleBorder(
-                borderRadius:
-                new BorderRadius.circular(30.0)),
+                borderRadius: new BorderRadius.circular(30.0)),
             color: Colors.grey[200],
             onPressed: () {},
             child: Text(
@@ -214,12 +213,12 @@ class _ProfileMenuState extends State<ProfileMenu> {
             ],
           ),
           Padding(
-            padding: const EdgeInsets.fromLTRB(18, 18, 18, 0),
+            padding: const EdgeInsets.fromLTRB(18, 18, 0, 0),
             child: Row(
               children: <Widget>[
                 Text('What you Like',
                     style: Theme.of(context).textTheme.headline3),
-                SizedBox(width: 30),
+                SizedBox(width: 4),
                 FlatButton(
                     onPressed: () => Navigator.push(
                           context,
@@ -228,13 +227,12 @@ class _ProfileMenuState extends State<ProfileMenu> {
                         ),
                     child: Text('Highlights',
                         style: Theme.of(context).textTheme.headline4)),
-
                 FlatButton(
                     onPressed: () => Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                          builder: (context) => ShoppingMenu()),
-                    ),
+                          context,
+                          MaterialPageRoute(
+                              builder: (context) => ShoppingMenu()),
+                        ),
                     child: Text('Shop',
                         style: Theme.of(context).textTheme.headline4))
               ],
