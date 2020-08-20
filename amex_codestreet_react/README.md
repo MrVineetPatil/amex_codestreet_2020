@@ -1,4 +1,4 @@
-# fundIt
+# gofundIt
 A platform that democratizes access to capital for small businesses via crowdfunding
 
 ## Inspiration
@@ -8,13 +8,11 @@ Meanwhile, most people are not as rich but want to invest. So we want to build a
 ## What it does
 fundIt is a an app for small businesses to get crowdfunding by retails investors for equity.
 <ul>
-<li>Users can login and authenticate their credentials via Apple/Google/Email</li>
+<li>Startups can verify their credentials and validate to create an account on the web platform</li>
 <li>Startups can post data such as PDFs, Images, and Text to supplement their crowdfunding campaign and help investors to make investment decisions</li>
-<li>Investors can browse all campaigns via a Tab view</li>
-<li>Investors can find directions to crowdfunding campaigns on a Map View</li>
-<li>Investors can schedule a virtual meeting with the representative of startup that will help investor know about the future plans of the business</li>
+<li>Startups can browse all requests from investors </li>
+<li>Startup representatitves can schedule a virtual meeting with the large sum investors that will help investor know about the future plans of the business</li>
 <li>Investors can pay as much as $10 for a share in the startup’s equity offered in the crowdfunding campaign</li>
-<li>Investors can view their past investments & their total portfolio on a profile view</li> 
 <li>Startups can check the status of their crowdfunding campaign on their profile panel</li> 
 <li>Startups can checkout the funds raised from the crowdsourced campaign via Apple/Google Pay to Apple/Google Wallets in a virtual FundIt card</li>
 </ul>
@@ -22,10 +20,9 @@ fundIt is a an app for small businesses to get crowdfunding by retails investors
 
 ## How I built it
 <ul>
-<li>Dart: Dynamic Mobile Applications that runs both on Android and iOS.</li>
-<li>Firebase: For authentication</li>
+<li>React: Dynamic and responsive web application development.</li>
+<li>Firebase: For authentication and data retrieval and storage</li>
 <li>Square: Payment Processing</li>
-<li>SQL: For storing the Business and Investor Information</li>
 </ul>
 
 ##Potential Users 
