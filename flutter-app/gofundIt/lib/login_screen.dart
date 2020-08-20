@@ -3,7 +3,6 @@ import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:google_sign_in/google_sign_in.dart';
-import 'package:small_b/ItemDetails.dart';
 import 'package:small_b/profile-menu.dart';
 import 'package:small_b/register_screen.dart';
 
@@ -314,10 +313,10 @@ class _LoginScreenState extends State<LoginScreen> {
                     begin: Alignment.topCenter,
                     end: Alignment.bottomCenter,
                     colors: [
-                      // Color(0xFF73AEF5),
-                      //Color(0xFF61A4F1),
-                      //Color(0xFF478DE0),
-                      //Color(0xFF398AE5),
+                      Color(0xFF73AEF5),
+                      Color(0xFF61A4F1),
+                      Color(0xFF478DE0),
+                      Color(0xFF398AE5),
                     ],
                     stops: [0.1, 0.4, 0.7, 0.9],
                   ),

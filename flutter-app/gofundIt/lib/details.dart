@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:percent_indicator/percent_indicator.dart';
 import 'package:small_b/chat_screen.dart';
 import 'package:small_b/main_pay.dart';
-import 'mainCard.dart';
+
 import 'videoClass.dart';
 
 class Details extends StatefulWidget {
@@ -326,10 +326,10 @@ class _DetailsState extends State<Details> {
               ),
               Center(
                 child: RaisedButton(
-//                  onPressed: () => Navigator.push(
-//                    context,
-//                    MaterialPageRoute(builder: (context) => ChatScreen()),
-//                  ),
+                  onPressed: () => Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => ChatScreen()),
+                  ),
                   child: Text('Contact Founder'),
                   shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(18.0),
