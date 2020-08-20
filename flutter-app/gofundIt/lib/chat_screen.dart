@@ -114,18 +114,18 @@ class MessagesStream extends StatelessWidget {
         List<MessageBubble> messageBubbles = [];
         for (var message in messages) {
           print('*******');
-          final messageText = message.data['text'];
-          final messageSender = message.data['sender'];
-
-          final currentUser = loggedInUser.email;
-
-          final messageBubble = MessageBubble(
-            sender: messageSender,
-            text: messageText,
-            isMe: currentUser == messageSender,
-          );
-
-          messageBubbles.add(messageBubble);
+//          final messageText = message.data['text'];
+//          final messageSender = message.data['sender'];
+//
+//          final currentUser = loggedInUser.email;
+//
+//          final messageBubble = MessageBubble(
+//            sender: messageSender,
+//            text: messageText,
+//            isMe: currentUser == messageSender,
+//          );
+//
+//          messageBubbles.add(messageBubble);
         }
         return Expanded(
           child: ListView(
