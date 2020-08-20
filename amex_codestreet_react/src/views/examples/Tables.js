@@ -61,7 +61,7 @@ class Tables extends React.Component {
                       <td>4000</td>
                       <td>Requesting meet to talk about investment </td>
                       <td>
-                        <a href="/admin/calendar"> Meet </a> | <a href="#"> Chat now </a>
+                        <a href="/admin/calendar"> Meet </a> | <a href="/admin/chat"> Chat now </a>
                       </td>
                     </tr>
                     <tr>
@@ -69,7 +69,7 @@ class Tables extends React.Component {
                       <td>3,980</td>
                       <td>What is the major USP of your product? </td>
                       <td>
-                        <a href="/admin/calendar"> Meet </a> | <a href="#"> Chat now </a>
+                        <a href="/admin/calendar"> Meet </a> | <a href="/admin/chat"> Chat now </a>
                       </td>
                     </tr>
                     <tr>
@@ -77,7 +77,7 @@ class Tables extends React.Component {
                       <td>2,500</td>
                       <td>The targeted audience? </td>
                       <td>
-                        <a href="/admin/calendar"> Meet </a> | <a href="#"> Chat now </a>
+                        <a href="/admin/calendar"> Meet </a> | <a href="/admin/chat"> Chat now </a>
                       </td>
                     </tr>
                     <tr>
@@ -85,7 +85,7 @@ class Tables extends React.Component {
                       <td>1,200</td>
                       <td>Interested in larger investment, need more details </td>
                       <td>
-                        <a href="/admin/calendar"> Meet </a> | <a href="#"> Chat now </a>
+                        <a href="/admin/calendar"> Meet </a> | <a href="/admin/chat"> Chat now </a>
                       </td>
                     </tr>
                     

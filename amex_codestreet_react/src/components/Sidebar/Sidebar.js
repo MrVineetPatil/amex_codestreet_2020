@@ -65,7 +65,7 @@ class Sidebar extends React.Component {
   createLinks = routes => {
     return routes.map((prop, key) => {
     console.log (prop)
-    if (prop.name ==="Company Profile" || prop.name ==="Dashboard" || prop.name === "Pitch Requests"){
+    if (prop.name ==="Company Profile" || prop.name ==="Dashboard" || prop.name === "Pitch Requests" || prop.name=== "chat"){
       return (
         <NavItem key={key}>
           <NavLink

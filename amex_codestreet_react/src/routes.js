@@ -66,7 +66,7 @@ var routes = [
     layout: "/auth"
   },
     {
-       path: "/chat",
+    path: "/chat",
     name: "chat",
     icon: "ni ni-circle-08 text-pink",
     component: App,
