@@ -1,4 +1,4 @@
-# fundIt
+# gofundIt
 A platform that democratizes access to capital for small businesses via crowdfunding
 
 ## Inspiration
