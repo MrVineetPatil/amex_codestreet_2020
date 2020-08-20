@@ -49,3 +49,11 @@ Able to build a working platform with a great team work in such a short time.
 
 ## What's next for fundIt
 We are planning to reach small businesses and small investors who could benefit from each other. Small businesses by getting money and small investors by getting returns on their investment with as little as 10 dollars.
+
+## To Run:
+<ul>
+<li>clone the repository </li>
+  <li> cd amex_codestreet_react </li>
+<li>npm install</li>
+<li>npm start</li>
+</ul>
