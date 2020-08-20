@@ -56,6 +56,6 @@ We are planning to reach small businesses and small investors who could benefit 
 ## How to run
 <ul>
 <li>clone the repository</li>
-<li>cd flutter_app/gofundit/lib</li>
-<li>flutter run</li>
+  <li><b>cd flutter_app/gofundit/lib</b></li>
+  <li><b>flutter run</b></li>
 </ul>
