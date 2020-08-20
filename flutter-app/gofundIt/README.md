@@ -1,4 +1,4 @@
-# fundIt
+# gofundIt
 A platform that democratizes access to capital for small businesses via crowdfunding
 
 ## Inspiration
@@ -52,3 +52,10 @@ Able to build a working platform with a great team work in such a short time.
 
 ## What's next for fundIt
 We are planning to reach small businesses and small investors who could benefit from each other. Small businesses by getting money and small investors by getting returns on their investment with as little as 10 dollars.
+
+## How to run
+<ul>
+<li>clone the repository</li>
+  <li><b>cd flutter_app/gofundit/lib</b></li>
+  <li><b>flutter run</b></li>
+</ul>
