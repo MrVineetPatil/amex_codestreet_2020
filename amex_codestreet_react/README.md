@@ -53,7 +53,7 @@ We are planning to reach small businesses and small investors who could benefit 
 ## To Run:
 <ul>
 <li>clone the repository </li>
-  <li> cd amex_codestreet_react </li>
-<li>npm install</li>
-<li>npm start</li>
+  <li> <b>cd amex_codestreet_react</b> </li>
+  <li><b>npm install</b></li>
+  <li><b>npm start</b></li>
 </ul>
