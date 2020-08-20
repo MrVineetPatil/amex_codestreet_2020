@@ -13,6 +13,7 @@ import 'package:small_b/google_pay_constants.dart' as google_pay_constants;
 import 'colors.dart';
 import 'config.dart';
 import 'widgets/buy_sheet.dart';
+import 'package:firebase_core/firebase_core.dart';
 //import 'package:flutter_screenutil/screenutil.dart';
 
 //import 'details.dart';
@@ -33,7 +34,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     // ScreenUtil.init(context, width: 375, height: 812, allowFontScaling: false);
-
+    Firebase.initializeApp();
     return MaterialApp(
       title: 'small_business',
       debugShowCheckedModeBanner: false,
