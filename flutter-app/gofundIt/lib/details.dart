@@ -326,10 +326,10 @@ class _DetailsState extends State<Details> {
               ),
               Center(
                 child: RaisedButton(
-                  onPressed: () => Navigator.push(
-                    context,
-                    MaterialPageRoute(builder: (context) => ChatScreen()),
-                  ),
+//                  onPressed: () => Navigator.push(
+//                    context,
+//                    MaterialPageRoute(builder: (context) => ChatScreen()),
+//                  ),
                   child: Text('Contact Founder'),
                   shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(18.0),

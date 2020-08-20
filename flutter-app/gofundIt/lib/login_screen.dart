@@ -6,12 +6,11 @@ import 'package:google_sign_in/google_sign_in.dart';
 import 'package:small_b/ItemDetails.dart';
 import 'package:small_b/profile-menu.dart';
 import 'package:small_b/register_screen.dart';
-import 'package:firebase_core/firebase_core.dart';
 
 import 'constants.dart';
-//import 'services/authservice.dart';
+// import 'services/authservice.dart';
 
-User _user;
+FirebaseUser _user;
 
 class LoginScreen extends StatefulWidget {
   @override
@@ -20,26 +19,25 @@ class LoginScreen extends StatefulWidget {
 
 class _LoginScreenState extends State<LoginScreen> {
   bool _rememberMe = false;
-
   final GoogleSignIn _googleSignIn = GoogleSignIn();
   final FirebaseAuth _auth = FirebaseAuth.instance;
   bool _showSpinner = false;
 
-  Future<User> _handleSignIn() async {
+  Future<FirebaseUser> _handleSignIn() async {
     // hold the instance of the authenticated user
 //    FirebaseUser user;
     // flag to check whether we're signed in already
     bool isSignedIn = await _googleSignIn.isSignedIn();
     if (isSignedIn) {
       // if so, return the current user
-      _user = await _auth.currentUser; //wait.. check doc i send
+      _user = await _auth.currentUser();
     } else {
       final GoogleSignInAccount googleUser = await _googleSignIn.signIn();
       final GoogleSignInAuthentication googleAuth =
           await googleUser.authentication;
       // get the credentials to (access / id token)
       // to sign in via Firebase Authentication
-      final AuthCredential credential = GoogleAuthProvider.credential(
+      final AuthCredential credential = GoogleAuthProvider.getCredential(
           accessToken: googleAuth.accessToken, idToken: googleAuth.idToken);
       _user = (await _auth.signInWithCredential(credential)).user;
     }
@@ -52,7 +50,7 @@ class _LoginScreenState extends State<LoginScreen> {
       _showSpinner = true;
     });
 
-    User user = await _handleSignIn();
+    FirebaseUser user = await _handleSignIn();
 
     setState(() {
       _showSpinner = true;
